@@ -1,0 +1,70 @@
+﻿############################
+# .NET / Visual Studio
+############################
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Resharper (nếu có)
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+
+# Publish
+publish/
+*.pubxml
+*.pubxml.user
+
+# Others
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+*.dbmdl
+*.jfm
+
+############################
+# Rider / IntelliJ (.idea)
+############################
+
+.idea/
+*.sln.iml
+
+############################
+# OS / Editor
+############################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VSCode (nếu có)
+.vscode/
